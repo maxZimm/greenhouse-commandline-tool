@@ -3,9 +3,6 @@ import base64
 import json
 import time 
 
-
-# make this DRY
-
 # varibales to be reused: API key + : b64 encoded endpoint url 'https://harvest.greenhouse.io/v1/' then append based on operation
 
 # functions to be reused: GET request with different URLs for list of users, candidates, jobs => return list of id's + name in a tuple?
